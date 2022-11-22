@@ -1,0 +1,523 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1669088086441280, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088086442632, "dur": 14112, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088086457261, "dur": 46442, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088086503730, "dur": 234160, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088086737892, "dur": 698838, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088087436748, "dur": 10765, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088091685563, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088091685781, "dur": 3093, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088091688875, "dur": 26833, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088091715710, "dur": 658996, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088092374708, "dur": 988895, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088093363605, "dur": 1367, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088093365406, "dur": 24, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1669088092197302, "dur": 168955, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669088092198455, "dur": 52061, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669088092347610, "dur": 5141, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669088092352754, "dur": 13481, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669088092353538, "dur": 11895, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669088092371560, "dur": 1538, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1669088092370510, "dur": 2612, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088093365505, "dur": 214, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1669088092417190, "dur":1042, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088092418235, "dur":27, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1669088092418304, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1669088092418335, "dur":695, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1669088092419054, "dur":650, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088092419704, "dur":22, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093358907, "dur":133, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359040, "dur":174, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359214, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359218, "dur":40, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359258, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359261, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359279, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359281, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359291, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359292, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359297, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359298, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359303, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359304, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359309, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359310, "dur":21, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359332, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359332, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359337, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359339, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359343, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359345, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359349, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359350, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359355, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359356, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359361, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359363, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359367, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359369, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359373, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359374, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359380, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359394, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093359459, "dur":1460, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1669088092418912, "dur":821, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088092419735, "dur":3443, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088092423224, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669088092423227, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088092424459, "dur":445, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669088092424907, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669088092424972, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088092425041, "dur":8533, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1669088092433577, "dur":220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669088092433801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088092433811, "dur":300745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1669088092734652, "dur":130308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669088092864964, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088092864972, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669088092866456, "dur":179270, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669088093045730, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088093045738, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669088093047431, "dur":308142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669088093355578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1669088093355585, "dur":3232, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":1, "ts":1669088093358859, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":1, "ts":1669088093358861, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092418955, "dur":888, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092419843, "dur":3341, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092423224, "dur":283, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669088092423510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092430031, "dur":15621, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1669088092445762, "dur":104357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092550124, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092550267, "dur":2929, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092553289, "dur":27330, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092580624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092580631, "dur":2335, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092583020, "dur":92427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092675452, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092675461, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092676891, "dur":28289, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092705185, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092705196, "dur":1478, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092706743, "dur":56087, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092762835, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092762988, "dur":1777, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092765173, "dur":49220, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092814400, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092814413, "dur":3926, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092818625, "dur":128934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092947563, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088092947572, "dur":1427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088092949064, "dur":294480, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088093243549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1669088093243556, "dur":2506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":2, "ts":1669088093246116, "dur":112806, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092418944, "dur":794, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092419739, "dur":3476, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092423224, "dur":17722, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669088092440950, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092440968, "dur":3916, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1669088092444957, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1669088092445110, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092445201, "dur":182558, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":3, "ts":1669088092627844, "dur":61150, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092688998, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092689008, "dur":1835, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092690911, "dur":28883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092719800, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092719810, "dur":2096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092721982, "dur":50671, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092772660, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092772672, "dur":3866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092776615, "dur":59175, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092835795, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088092835805, "dur":9322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088092845198, "dur":404036, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088093249237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1669088093249243, "dur":2768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":3, "ts":1669088093252047, "dur":106855, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092418996, "dur":854, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092419850, "dur":3333, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092423224, "dur":42271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669088092465503, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092550249, "dur":2741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":4, "ts":1669088092553070, "dur":26896, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092579971, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092579981, "dur":1883, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092581948, "dur":75361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092657315, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092657325, "dur":1295, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092658695, "dur":56820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092715521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092715532, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092717097, "dur":89605, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092806710, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092806721, "dur":4084, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092810915, "dur":50044, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092860989, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088092861008, "dur":1407, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088092862478, "dur":194985, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088093057469, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088093057480, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088093059267, "dur":233179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088093292450, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1669088093292457, "dur":1097, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1669088093293589, "dur":65312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092419030, "dur":875, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092419905, "dur":3321, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092423226, "dur":19019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669088092442250, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092442272, "dur":4187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":5, "ts":1669088092446527, "dur":103637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092550168, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092550279, "dur":2717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092553066, "dur":41530, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092594603, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092594613, "dur":1405, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092596084, "dur":46164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092642253, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092642289, "dur":1633, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092643988, "dur":74808, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092718801, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092718811, "dur":3280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092722165, "dur":34058, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092756230, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092756241, "dur":2846, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092759157, "dur":42361, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092801524, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092801534, "dur":1955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092803557, "dur":59240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092862802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088092862811, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088092864133, "dur":292049, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088093156187, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1669088093156197, "dur":3782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":5, "ts":1669088093160039, "dur":198856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092419059, "dur":853, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092419912, "dur":3348, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092423261, "dur":16616, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669088092439881, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092439898, "dur":1497, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1669088092441477, "dur":185657, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":6, "ts":1669088092627140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092627148, "dur":4864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/UnityCrashHandler32.exe" }}
+,{ "pid":12345, "tid":6, "ts":1669088092632083, "dur":181873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669088092813960, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092813968, "dur":1730, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669088092815759, "dur":173314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669088092989079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088092989090, "dur":3466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669088092992630, "dur":189461, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669088093182095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1669088093182101, "dur":1946, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1669088093184087, "dur":174856, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092419623, "dur":628, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092420251, "dur":2965, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092423223, "dur":240, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669088092423465, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092428899, "dur":17297, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":7, "ts":1669088092446412, "dur":103745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092550160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092550276, "dur":3281, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092553782, "dur":29753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092583541, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092583552, "dur":3171, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092586789, "dur":27505, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092614301, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092614311, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092616017, "dur":54136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092670160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092670169, "dur":1851, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092672086, "dur":28555, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092700647, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092700658, "dur":2247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092703087, "dur":26047, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092729140, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092729151, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092730751, "dur":29606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092760362, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092760375, "dur":2538, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092762979, "dur":176137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092939123, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092939133, "dur":1502, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092940705, "dur":53391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092994100, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088092994109, "dur":1440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088092995622, "dur":139533, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088093135160, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088093135168, "dur":1670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1669088093136908, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1669088093136976, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1669088093136983, "dur":23863, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1669088093160920, "dur":198038, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092419160, "dur":759, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092419919, "dur":3324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092423246, "dur":14074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669088092437324, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092437339, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":8, "ts":1669088092438667, "dur":54864, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092493539, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092550190, "dur":2944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092553201, "dur":133547, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092686756, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092686766, "dur":1814, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092688649, "dur":48097, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092736753, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092736764, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092738153, "dur":46804, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092784963, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092784973, "dur":3720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092788802, "dur":40637, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092829443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088092829451, "dur":5308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088092834852, "dur":190466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088093025326, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088093025338, "dur":2332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088093027741, "dur":137402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088093165149, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1669088093165161, "dur":2020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":8, "ts":1669088093167270, "dur":191633, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092419264, "dur":760, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092420024, "dur":3204, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092423228, "dur":13689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1669088092436922, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092436938, "dur":995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1669088092437992, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1669088092438112, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092438118, "dur":3757, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":9, "ts":1669088092441960, "dur":61472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project.exe" }}
+,{ "pid":12345, "tid":9, "ts":1669088092503439, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092503445, "dur":49349, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project.exe" }}
+,{ "pid":12345, "tid":9, "ts":1669088092552860, "dur":24889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092577758, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092577769, "dur":1185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092579015, "dur":28954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092607973, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092607980, "dur":1986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092610023, "dur":29707, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092639736, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092639745, "dur":2138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092641948, "dur":32046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092673999, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092674008, "dur":3238, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092677330, "dur":31979, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092709315, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092709334, "dur":2126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092711532, "dur":31992, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092743530, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092743541, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092744926, "dur":41170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092786100, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092786108, "dur":1833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092788015, "dur":195578, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092983599, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088092983608, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088092986342, "dur":56508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088093042857, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088093042868, "dur":1326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088093044275, "dur":50545, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088093094828, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088093094840, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088093096327, "dur":85668, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088093182002, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1669088093182011, "dur":1298, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":9, "ts":1669088093183352, "dur":175565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092419308, "dur":721, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092420030, "dur":3221, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092423254, "dur":342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669088092423600, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092438397, "dur":113610, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1669088092552111, "dur":51057, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092603173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092603182, "dur":1568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092604823, "dur":206826, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092811654, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092811664, "dur":1723, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092813442, "dur":71606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092885054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092885064, "dur":2088, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092887237, "dur":58310, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092945554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088092945565, "dur":1390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088092947025, "dur":237814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088093184857, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1669088093184867, "dur":1870, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1669088093186793, "dur":172158, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092419343, "dur":692, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092420035, "dur":3200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092423239, "dur":226, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1669088092423468, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092429700, "dur":9540, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1669088092439364, "dur":110873, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092550241, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092550247, "dur":7123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092557444, "dur":22411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092579860, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092579871, "dur":1602, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092581549, "dur":26200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092607754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092607791, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092609557, "dur":23764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092633402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092633412, "dur":1448, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092634947, "dur":56814, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092691766, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092691776, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092693291, "dur":30799, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092724096, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092724106, "dur":2046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092726225, "dur":40266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092766497, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092766546, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092768297, "dur":46859, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092815166, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092815176, "dur":1532, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092816795, "dur":46580, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092863379, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088092863387, "dur":1418, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088092864872, "dur":193976, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088093058853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088093058862, "dur":9252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088093068203, "dur":180346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088093248553, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1669088093248561, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":11, "ts":1669088093249794, "dur":109124, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092419392, "dur":705, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092420097, "dur":3126, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092423226, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1669088092423764, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092439707, "dur":294692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1669088092734531, "dur":51419, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088092785956, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092785966, "dur":2678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088092788726, "dur":50628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088092839359, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092839368, "dur":21006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088092860441, "dur":118905, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088092979353, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088092979364, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088092981068, "dur":236954, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088093218028, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1669088093218038, "dur":2767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":12, "ts":1669088093220865, "dur":138071, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092419433, "dur":669, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092420102, "dur":3123, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092423225, "dur":234, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1669088092423462, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092424810, "dur":10431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":13, "ts":1669088092435310, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1669088092435422, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092435428, "dur":117003, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":13, "ts":1669088092552504, "dur":50034, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088092602543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092602553, "dur":1585, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088092604214, "dur":186674, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088092790896, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092790908, "dur":7741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088092799506, "dur":105946, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088092905458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088092905467, "dur":1646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088092907207, "dur":216816, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088093124030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093124040, "dur":3138, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":13, "ts":1669088093127245, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1669088093127332, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093127345, "dur":1768, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":13, "ts":1669088093129178, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093129243, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093129250, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093130659, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1669088093130726, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093130733, "dur":1693, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":13, "ts":1669088093132492, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093132560, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093132568, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093134054, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1669088093134297, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093134306, "dur":1123, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":13, "ts":1669088093135487, "dur":1028, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1669088093136521, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093136531, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":13, "ts":1669088093137787, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093137848, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093137855, "dur":3989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/resources.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093141904, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1669088093141963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093141970, "dur":1332, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/level1" }}
+,{ "pid":12345, "tid":13, "ts":1669088093143357, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1669088093143418, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093143424, "dur":1159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/level0" }}
+,{ "pid":12345, "tid":13, "ts":1669088093144650, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093144724, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093144732, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":13, "ts":1669088093146160, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1669088093146246, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093146253, "dur":1233, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":13, "ts":1669088093147550, "dur":185, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1669088093147738, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1669088093147745, "dur":1129, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/boot.config" }}
+,{ "pid":12345, "tid":13, "ts":1669088093148943, "dur":209955, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669088092419456, "dur":698, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669088092420154, "dur":3064, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669088092423223, "dur":15527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1669088092438754, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669088092438771, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":14, "ts":1669088092440729, "dur":814607, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669088093255356, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1669088093255362, "dur":12635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":14, "ts":1669088093268051, "dur":90863, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092419488, "dur":672, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092420160, "dur":3067, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092423227, "dur":372, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1669088092423602, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092439014, "dur":113047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":15, "ts":1669088092552195, "dur":48200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092600402, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092600412, "dur":1359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092601835, "dur":60382, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092662225, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092662235, "dur":1535, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092663836, "dur":44203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092708044, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092708055, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092710524, "dur":64646, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092775176, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092775188, "dur":1691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092776952, "dur":36731, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092813687, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092813696, "dur":2365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092816115, "dur":53928, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092870050, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092870061, "dur":1319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092871445, "dur":121593, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092993042, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088092993052, "dur":1420, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088092994534, "dur":159535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088093154077, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1669088093154088, "dur":1843, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":15, "ts":1669088093156002, "dur":202892, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088092419553, "dur":661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088092420214, "dur":3015, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088092423232, "dur":518, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1669088092423769, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088092440629, "dur":313070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1669088092753774, "dur":33740, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1669088092787520, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088092787528, "dur":1431, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1669088092789067, "dur":39425, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1669088092828499, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088092828509, "dur":1416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1669088092830000, "dur":377469, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1669088093207474, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1669088093207482, "dur":1372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/lepom/Desktop/new folder - Copy/My project_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":16, "ts":1669088093208911, "dur":150017, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1669088093362275, "dur":2483, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1669088093365804, "dur": 773, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1669088093365396, "dur": 1205, "ph": "X", "name": "Write chrome-trace events", "args": {} },
